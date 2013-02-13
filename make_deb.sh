@@ -57,7 +57,7 @@ write_config() {
 cat << EOF > ${build_dir}/etc/${NAME}/cluster.config
 [
  %% SASL config
- {iestatsd, [
+ {estatsd, [
    {flush_interval,  10000},
    {vm_metrics,      true},
    {destination,     {graphite, "localhost", 2003}}
