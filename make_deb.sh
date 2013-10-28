@@ -29,7 +29,6 @@ Maintainer: Anastas Semenov <asemenov@chitika.com>
 Architecture: amd64
 Installed-Size: %INSTALLED_SIZE%
 Version: %GIT_VERSION%-1
-Depends: erlang-nox(>= 1:15)
 Provides: ${NAME}
 Replaces: ${NAME}
 Description: ${NAME^} ${DESCRIPTION}
